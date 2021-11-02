@@ -25,7 +25,6 @@ public class GuessTheNumber {
                 System.out.println("Gratulálok, eltaláltad!");
             }
         }
-
         if (!succes){
             System.out.println("Sajnálom, nem találtad el. A helyes válasz: " + computerNumber);
         }

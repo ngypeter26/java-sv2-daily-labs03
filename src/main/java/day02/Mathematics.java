@@ -17,5 +17,6 @@ public class Mathematics {
 //        System.out.println(number + " osztóinak száma: " + numberOfDivider);
         System.out.println(number + ": " + (numberOfDivider ==2 ? " prime" : " not prime"));
         return numberOfDivider ==2 ? true : false;
+
     }
 }

@@ -13,5 +13,7 @@ public class School {
         std.addHeight(200);
 
         System.out.println(std.isHeightsIncreasing());
+
+
     }
 }

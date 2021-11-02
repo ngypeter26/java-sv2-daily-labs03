@@ -13,7 +13,7 @@ public class Prison {
         for(int i = 1; i<100+1;i++){  //minden nap egyszer fordít
             for(int j = i; j<cells.length;j+=i){
                 cells[j-1] +=1;
-                cells[j-1] %=2;
+                cells[j-1] %=2; // lehetne boolean és akkor cells[j-1] = ! cells[j-1];
             }
         }
         // összegyűjtöm a zártakat

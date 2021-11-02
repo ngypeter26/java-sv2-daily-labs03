@@ -18,7 +18,6 @@ public class Prime {
         System.out.println(number + ": " + (numberOfDivider ==2 ? " prime" : " not prime"));
         return numberOfDivider ==2 ? true : false;
     }
-
     public static void main(String[] args) {
         Prime prime = new Prime();
 

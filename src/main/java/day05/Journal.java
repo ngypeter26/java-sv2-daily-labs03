@@ -22,6 +22,5 @@ public class Journal {
 
         System.out.println(journal.addStudent("Kis Pista"));
         System.out.println(journal.addStudent("Madonna"));
-
     }
 }
